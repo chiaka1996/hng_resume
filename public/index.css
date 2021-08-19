@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+}
+.container{
+    width: 40%;
+    color: white;
+    margin: 0 auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.header{
+    background-color: black;
+    padding-left: 5%;
+    padding-bottom: 1%;
+}
+
+#name{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.body-part{
+    padding-top: 1%;
+    padding-left: 5%;
+    color: black;
+    border: 1px solid grey;
+}
+
+.item{
+    color: rgb(18, 155, 200);;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.educational-background, .work-experience{
+    margin-top: 3%;
+}
+
+.project_name{
+    margin-top: 2%;
+}
+
+.school, .project_name{
+    font-weight: bold;
+}
+
+.italics, .job-description{
+    font-style: italic;
+    color: rgb(18, 155, 200);
+}
+
+.job-description{
+    font-weight: 20px;
+}
+
+.date{
+    margin-top: 2%;
+    font-size: 18px;
+}
+
+ul{
+    margin-left: 4%;
+}
+
+.skills{
+    margin-top: 5%;
+}
+
+.tools{
+    font-size: 14.5px;
+}
+
+.contact-form{
+    margin-top: 4%;
+}
+.form_header{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+input{
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;
+    padding-left: 4%;
+    font-size: 16px;
+    outline: none;
+}
+
+textarea{
+    outline: none;
+}
+
+button{
+    width: 30%;
+    height: 40px;
+    outline: none;
+    background-color: green;
+    font-size: 15px;
+    border: 1px solid green;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 1%;
+}
+
+.errorMessage{
+    color: red;
+}
+
+.successMessage{
+    color: green;
+}

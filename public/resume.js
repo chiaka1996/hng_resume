@@ -34,9 +34,9 @@ submitBtn.addEventListener('click', async () => {
     const postReq = await axios.post('/apis/submitForm', data)
     if(postReq.status == 201){
         errorMessage.innerHTML = '';
-        nameValue.innerHTML = '';
-        emailValue.innerHTML = '';
-        messageValue.innerHTML = '';
+        nameValue.length = 0;
+        emailValue.length = 0;
+        messageValue.length = 0;
         successMessage.innerHTML = postReq.data.message;
     }
    }

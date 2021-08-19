@@ -12,6 +12,7 @@
     background-color: black;
     padding-left: 5%;
     padding-bottom: 1%;
+    position: relative;
 }
 
 #name{
@@ -51,6 +52,14 @@
 
 .job-description{
     font-weight: 20px;
+}
+
+.hngImg{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: 4%;
+    top: 40%;
 }
 
 .date{
@@ -110,4 +119,47 @@ button{
 
 .successMessage{
     color: green;
+}
+
+@media screen and (max-width: 992px) {
+    .container{
+        width: 100%;
+        color: white;
+        margin: none;
+        /* border-radius: 5px 5px 0 0; */
+    }
+
+    .educational-background, .work-experience{
+        margin-top: 6%;
+    }
+
+    .hngImg{
+        width: 45px;
+        height: 45px;
+    }
+
+    input{
+        width: 90%;
+        height: 90px;
+        margin: 0 auto;
+        padding-left: 4%;
+        font-size: 30px;
+        outline: none;
+        border: 1px solid black;
+        color: black;
+    }
+    
+    textarea{
+        outline: none;
+        font-size: 30px;
+        border: 1px solid black;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    button{
+        width: 45%;
+        height: 100px;
+        font-size: 45px;
+    }
 }

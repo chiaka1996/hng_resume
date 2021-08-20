@@ -1,3 +1,7 @@
+const myName = "Osuji Chiaka Daniel"
+console.log(myName);
+
+
 const express = require('express');
 const app = express();
 const path = require('path');
